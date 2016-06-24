@@ -9,10 +9,13 @@
 import os
 
 DBLP_XML_PATH = "../../data/dblp.xml"
+OUTPUT_COAUNUM_COLTIME = "../Result/coauNumColTime.txt"
 OUTPUT_STAR_AUTHORS = "../Result/starList.txt"
 OUTPUT_TARGET_AUTHORS = "../Result/targetList.txt"
 OUTPUT_AUTHORS_BACON_NUM = "../Result/authorBaconNum.txt"
-OUTPUT_COAUNUM_LEVEL = "../Result/coaunumlevel.txt"
+OUTPUT_COAUNUM_LEVEL_PR = "../Result/coaunumlevelPR.txt"
+OUTPUT_COAUNUM_LEVEL_CONUM = "../Result/coaunumlevel_conum.txt"
+OUTPUT_COAUNUM_LEVEL_PAPERNUM = "../Result/coaunumlevel_papernum.txt"
 OUTPUT_COAUNUM_COLLAB_LEAD_COAU_PROB = "../Result/collabLeadCoauProb.txt"
 OUTPUT_COAUNUM_COLLAB_LEAD_NEW_COAU_NUM = "../Result/collabLeadNewCoauNum.txt"
 OUTPUT_COAUNUM_COLLAB_LEAD_POT_COAU_NUM = "../Result/collabLeadPotCoauNum.txt"
